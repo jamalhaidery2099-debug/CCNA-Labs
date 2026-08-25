@@ -52,22 +52,22 @@ show port-security interface fastEthernet 0/1
 ## Project Screenshots
 
 ### Network Topology
-![Topology](screenshots/topology.png)
+![Topology](topology.png)
 
 ### VLAN Verification
-![VLAN Verification](screenshots/vlan-verification.png)
+![VLAN Verification](vlan-verification.png)
 
 ### Trunk Verification
-![Trunk Verification](screenshots/trunk-verification.png)
+![Trunk Verification](trunk_verification.png)
 
 ### Inter-VLAN Ping
-![Inter-VLAN Ping](screenshots/inter-vlan-ping.png)
+![Inter-VLAN Ping](inter-vlan-ping.png)
 
 ### DHCP Verification
-![DHCP Verification](screenshots/dhcp-verification.png)
+![DHCP Verification](dhcp-verification.png)
 
 ### Port Security
-![Port Security](screenshots/port-security.png)
+![Port Security](port-security.png)
 
 ## Skills Learned
 
