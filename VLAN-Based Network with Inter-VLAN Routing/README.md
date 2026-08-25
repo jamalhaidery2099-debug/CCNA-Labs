@@ -64,7 +64,7 @@ show port-security interface fastEthernet 0/1
 ![Inter-VLAN Ping](inter-vlan-ping.png)
 
 ### DHCP Verification
-![DHCP Verification](dhcp-verification.png)
+![DHCP verification](dhcp-verification.png)
 
 ### Port Security
 ![Port Security](port-security.png)
