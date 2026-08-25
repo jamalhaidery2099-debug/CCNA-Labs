@@ -91,31 +91,31 @@ The network connectivity and security configurations were successfully verified.
 
 Network Topology
 
-"Network Topology" (01-Topology.png)
+"Network Topology" (Topology.png)
 
 Router Security
 
-"Router Security" (02-Router-Security.png)
+"Router Security" (Router-Security.png)
 
 SSH Configuration
 
-"SSH Configuration" (03-SSH-Configuration.png)
+"SSH Configuration" (SSH-Configuration.png)
 
 Switch Security
 
-"Switch Security" (04-Switch-Security.png)
+"Switch Security" (Switch-Security.png)
 
 Port Security
 
-"Port Security" (05-Port-Security.png)
+"Port Security" (Port-Security.png)
 
 Unused Ports
 
-"Unused Ports" (06-Unused-Ports.png)
+"Unused Ports" (Unused-Ports.png)
 
 Final Verification
 
-"Final Verification" (07-Final-Verification.png)
+"Final Verification" (Final-Verification.png)
 
 📁 Project Files
 
