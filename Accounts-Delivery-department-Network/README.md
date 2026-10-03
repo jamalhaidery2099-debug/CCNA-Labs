@@ -1,58 +1,126 @@
-Accounts & Delivery Department Network
+# Accounts & Delivery Department Network
 
-Project Overview
+## Project Overview
 
-This project is a departmental network designed and simulated in Cisco Packet Tracer. It connects the Accounts and Delivery departments through VLANs and Router-on-a-Stick inter-VLAN routing.
+This project presents the design and simulation of a departmental network for **Accounts and Delivery departments** using Cisco Packet Tracer.
 
-Network Departments
+The network uses **VLANs** to separate departments and **Router-on-a-Stick** for inter-VLAN communication. A dedicated server VLAN is also configured to provide network services such as **DHCP and DNS**.
 
-- Accounts Department — VLAN 10
-- Delivery Department — VLAN 20
-- Server Network — VLAN 30
+## Network Departments
 
-IP Addressing
+| Department / Network |    VLAN |
+| -------------------- | ------: |
+| Accounts Department  | VLAN 10 |
+| Delivery Department  | VLAN 20 |
+| Server Network       | VLAN 30 |
 
-Department| VLAN| Network| Gateway
-Accounts| 10| 192.168.10.0/24| 192.168.10.1
-Delivery| 20| 192.168.20.0/24| 192.168.20.1
-Server| 30| 192.168.30.0/24| 192.168.30.1
+## IP Addressing
 
-Technologies Used
+| Network  | VLAN | Network Address | Default Gateway |
+| -------- | ---: | --------------- | --------------- |
+| Accounts |   10 | 192.168.10.0/24 | 192.168.10.1    |
+| Delivery |   20 | 192.168.20.0/24 | 192.168.20.1    |
+| Server   |   30 | 192.168.30.0/24 | 192.168.30.1    |
 
-- Cisco Packet Tracer
-- VLAN
-- Router-on-a-Stick
-- Inter-VLAN Routing
-- DHCP
-- DNS
-- Cisco 2911 Router
-- Cisco 2960 Switch
+## Network Topology
 
-Network Features
+The network consists of:
 
-- Separate VLANs for different departments
-- Inter-VLAN communication
-- Automatic IP address assignment using DHCP
-- DNS name resolution
-- Dedicated server network
-- Router-on-a-Stick configuration
-- Network connectivity testing using Ping
+* Cisco 2911 Router
+* Cisco 2960 Switch
+* Accounts PCs
+* Delivery PCs
+* Server
+* VLANs for network segmentation
 
-Testing
+## Technologies Used
 
-The following connectivity tests were performed successfully:
+* Cisco Packet Tracer
+* VLAN
+* Trunking
+* Router-on-a-Stick
+* Inter-VLAN Routing
+* DHCP
+* DNS
+* IP Addressing
+* Ping Testing
 
-- Accounts PC → Accounts Gateway
-- Accounts PC → Delivery Network
-- Delivery PC → Accounts Network
-- PCs → Server
-- DNS name resolution using "company.local"
+## Network Features
 
-Project Files
+* Separate VLANs for Accounts and Delivery departments
+* Dedicated Server VLAN
+* Router-on-a-Stick inter-VLAN routing
+* Automatic IP address assignment using DHCP
+* DNS name resolution
+* Trunk connection between switch and router
+* Connectivity testing using Ping
 
-- "Accounts-Delivery-Department-Network.pkt" — Cisco Packet Tracer project
-- "Network-Diagram.png" — Network topology diagram
+## VLAN Configuration
 
-Learning Outcomes
+### VLAN 10 – Accounts
 
-This project demonstrates practical knowledge of VLAN configuration, trunking, Router-on-a-Stick, inter-VLAN routing, DHCP, DNS, IP addressing, and basic network troubleshooting.
+**Network:** `192.168.10.0/24`
+**Gateway:** `192.168.10.1`
+
+### VLAN 20 – Delivery
+
+**Network:** `192.168.20.0/24`
+**Gateway:** `192.168.20.1`
+
+### VLAN 30 – Server
+
+**Network:** `192.168.30.0/24`
+**Gateway:** `192.168.30.1`
+
+## Testing
+
+The following tests were performed to verify network connectivity:
+
+* Accounts PC → Accounts Gateway
+* Delivery PC → Delivery Gateway
+* Accounts PC → Delivery Network
+* Delivery PC → Accounts Network
+* Accounts PC → Server
+* Delivery PC → Server
+* DNS name resolution using `company.local`
+
+Successful ping responses confirm connectivity between the configured networks.
+
+## Network Services
+
+### DHCP
+
+DHCP is used to automatically assign IP addresses and network information to client PCs.
+
+### DNS
+
+DNS is configured to provide name resolution for the network.
+
+Example:
+
+`company.local`
+
+## Project Files
+
+* `Accounts-Delivery-Department-Network.pkt` — Cisco Packet Tracer project
+* `Network-Diagram.png` — Network topology diagram
+
+## Learning Outcomes
+
+This project demonstrates practical knowledge of:
+
+* VLAN configuration
+* VLAN segmentation
+* Access and trunk ports
+* Router-on-a-Stick
+* Inter-VLAN routing
+* DHCP configuration
+* DNS configuration
+* IP addressing
+* Network connectivity testing
+* Basic network troubleshooting
+* Cisco Packet Tracer simulation
+
+## Conclusion
+
+This project demonstrates how VLANs, Router-on-a-Stick, DHCP, and DNS can be combined to build a structured departmental network. The configuration was tested using connectivity and DNS resolution tests in Cisco Packet Tracer.
