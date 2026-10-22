@@ -61,15 +61,15 @@ Verification Evidence
 
 Network Topology
 
-"SEAC Network Topology" (https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/seac-topology.png?raw=true)
+![SEAC Network Topology](https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/seac-topology.png?raw=true)
 
 NAT/PAT Verification
 
-"NAT/PAT Verification" (https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/nat-pat-verification.png?raw=true)
+![NAT/PAT Verification](https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/nat-pat-verification.png?raw=true)
 
 ACL Security Verification
 
-"ACL Security Verification" (https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/acl-security-verification.png?raw=true)
+![ACL Security Verification](https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/acl-security-verification.png?raw=true)
 
 Tools Used
 
