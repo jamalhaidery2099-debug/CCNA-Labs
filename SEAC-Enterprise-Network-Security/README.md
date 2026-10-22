@@ -76,6 +76,19 @@ Tools Used
 - Cisco IOS CLI
 - GitHub for project documentation and version control
 
+Verification Evidence
+
+Network Topology
+
+"SEAC Network Topology" (./seac-topology-evidence.png)
+
+NAT/PAT Verification
+
+"NAT/PAT Verification" (./nat-pat-verification.png)
+
+ACL Security Verification
+
+"ACL Security Verification" (./acl-security-verification.png)
 Disclaimer
 
 This is an educational lab built for practice. It has not been presented as a production-ready enterprise security solution.
