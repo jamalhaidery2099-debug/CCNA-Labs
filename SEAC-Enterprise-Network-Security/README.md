@@ -51,12 +51,11 @@ show port-security
 
 Project Files
 
-- ""SEAC-Enterprise-Network.pkt"" (./SEAC-Enterprise-Network.pkt) — Packet Tracer lab file.
-- ""seac-topology.png"" (./seac-topology.png) — Network topology image.
-- ""configs/"" (./configs/) — Router and switch configuration files.
-- ""documentation/security-architecture.md"" (./documentation/security-architecture.md) — Security architecture.
-- ""documentation/testing-results.md"" (./documentation/testing-results.md) — Testing documentation.
-
+- ![SEAC Enterprise Network (.pkt)](https://github.com/jamalhaidery2099-debug/CCNA-Labs/tree/main/SEAC-Enterprise-Network-Security)
+- ![Network Topology Image](https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/seac-topology.png)
+- ![Router and Switch Configurations](https://github.com/jamalhaidery2099-debug/CCNA-Labs/tree/main/SEAC-Enterprise-Network-Security/configs)
+- ![Security Architecture](https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/documentation/security-architecture.md)
+- ![Testing Results](https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/documentation/testing-results.md)
 Verification Evidence
 
 Network Topology
