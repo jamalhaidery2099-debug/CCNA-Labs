@@ -51,7 +51,7 @@ show port-security
 
 Project Files
 
-- ""SEAC-Enterprise-Network.pkt"" (./SEAC-Enterprise-Network.pkt) — Packet Tracer lab file, if this is the exact uploaded filename.
+- ""SEAC-Enterprise-Network.pkt"" (./SEAC-Enterprise-Network.pkt) — Packet Tracer lab file.
 - ""seac-topology.png"" (./seac-topology.png) — Network topology image.
 - ""configs/"" (./configs/) — Router and switch configuration files.
 - ""documentation/security-architecture.md"" (./documentation/security-architecture.md) — Security architecture.
@@ -61,15 +61,15 @@ Verification Evidence
 
 Network Topology
 
-"SEAC Network Topology Evidence" (./seac-topology-evidence.png)
+"SEAC Network Topology" (https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/seac-topology.png?raw=true)
 
 NAT/PAT Verification
 
-"NAT/PAT Verification" (./nat-pat-verification.png)
+"NAT/PAT Verification" (https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/nat-pat-verification.png?raw=true)
 
 ACL Security Verification
 
-"ACL Security Verification" (./acl-security-verification.png)
+"ACL Security Verification" (https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/acl-security-verification.png?raw=true)
 
 Tools Used
 
