@@ -8,7 +8,7 @@ The SEAC (Secure Enterprise Access Control) Framework is an enterprise network s
 
 Network Topology
 
-"SEAC Enterprise Network Topology" (./seac-topology.png)
+![SEAC Enterprise Network Topology](https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/seac-topology.png?raw=true)
 
 The topology includes:
 
