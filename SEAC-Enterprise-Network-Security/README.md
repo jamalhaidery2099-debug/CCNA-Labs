@@ -7,6 +7,8 @@ SEAC is a Cisco Packet Tracer enterprise networking lab designed to practise net
 
 Network Topology
 
+"SEAC Enterprise Network Topology" (./seac-topology.png)
+
 The lab includes:
 
 - R1-ENTERPRISE router
