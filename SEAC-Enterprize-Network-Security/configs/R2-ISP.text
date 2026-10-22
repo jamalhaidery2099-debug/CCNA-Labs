@@ -1,13 +1,14 @@
+R2-ISP#show running-config
 Building configuration...
 
-Current configuration : 1622 bytes
+Current configuration : 718 bytes
 !
 version 15.4
 no service timestamps log datetime msec
 no service timestamps debug datetime msec
 no service password-encryption
 !
-hostname Router-Enterprise
+hostname R2-ISP
 !
 !
 !
@@ -21,7 +22,6 @@ no ipv6 cef
 !
 !
 !
-username admin secret 5 $1$mERr$5.a6P4JqbNiMX01usIfka/
 !
 !
 !
@@ -29,9 +29,6 @@ username admin secret 5 $1$mERr$5.a6P4JqbNiMX01usIfka/
 !
 !
 !
-!
-ip ssh version 2
-ip domain-name seac.local
 !
 !
 spanning-tree mode pvst
@@ -42,37 +39,14 @@ spanning-tree mode pvst
 !
 !
 interface GigabitEthernet0/0/0
- ip address 10.10.10.1 255.255.255.252
- ip nat outside
+ ip address 10.10.10.2 255.255.255.252
  duplex auto
  speed auto
 !
 interface GigabitEthernet0/0/1
- no ip address
- ip nat inside
+ ip address 203.0.113.1 255.255.255.0
  duplex auto
  speed auto
-!
-interface GigabitEthernet0/0/1.10
- encapsulation dot1Q 10
- ip address 192.168.10.1 255.255.255.0
- ip access-group HR_SECURITY in
- ip nat inside
-!
-interface GigabitEthernet0/0/1.20
- encapsulation dot1Q 20
- ip address 192.168.20.1 255.255.255.0
- ip nat inside
-!
-interface GigabitEthernet0/0/1.30
- encapsulation dot1Q 30
- ip address 192.168.30.1 255.255.255.0
- ip nat inside
-!
-interface GigabitEthernet0/0/1.40
- encapsulation dot1Q 40
- ip address 192.168.40.1 255.255.255.0
- ip nat inside
 !
 interface GigabitEthernet0/0/2
  no ip address
@@ -84,18 +58,12 @@ interface Vlan1
  no ip address
  shutdown
 !
-ip nat inside source list 20 interface GigabitEthernet0/0/0 overload
 ip classless
-ip route 0.0.0.0 0.0.0.0 10.10.10.2 
+ip route 192.168.0.0 255.255.0.0 10.10.10.1 
 !
 ip flow-export version 9
 !
 !
-ip access-list extended HR_SECURITY
- deny ip host 192.168.10.10 host 192.168.20.10
- permit ip any any
-access-list 15 permit host 192.168.30.10
-access-list 20 permit 192.168.0.0 0.0.255.255
 !
 !
 !
@@ -107,13 +75,11 @@ line con 0
 line aux 0
 !
 line vty 0 4
- access-class 15 in
- login local
- transport input ssh
+ login
 !
 !
 !
 end
 
 
-Router-Enterprise#
+R2-ISP#
