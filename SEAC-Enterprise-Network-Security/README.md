@@ -1,86 +1,67 @@
-
 SEAC Framework — Secure Enterprise Access Control
+
+A Cisco Packet Tracer enterprise networking project demonstrating network segmentation, traffic control, routing, and multiple security controls.
 
 Project Overview
 
-SEAC is a Cisco Packet Tracer enterprise networking lab designed to practise network connectivity, traffic control, and basic security.
+The SEAC (Secure Enterprise Access Control) Framework is an enterprise network security lab designed to practise Cisco networking, access control, and troubleshooting. It combines routing, VLANs, ACLs, NAT/PAT, SSH access restrictions, and Layer 2 security in one simulated network.
 
 Network Topology
 
 "SEAC Enterprise Network Topology" (./seac-topology.png)
 
-The lab includes:
+The topology includes:
 
-- R1-ENTERPRISE router
-- R2-ISP router
-- S1-CORE switch
-- HR, Finance, IT, and Admin VLANs
-- Web server
-
-See "seac-topology.png" for the network diagram.
+- R1-ENTERPRISE: Enterprise router for VLAN routing, ACLs, and NAT/PAT.
+- R2-ISP: ISP simulation router.
+- S1-CORE: Core switch connecting departmental devices.
+- HR, Finance, IT, and Admin: Separate departmental VLANs.
+- Web Server: External-server simulation for connectivity testing.
 
 Technologies and Features
 
-- VLANs and Inter-VLAN Routing
-- Static Routing
-- Extended Access Control Lists (ACLs)
-- NAT/PAT Overload
-- SSH Remote Management
-- Switch Port Security
-- Network Troubleshooting
+- VLANs and inter-VLAN routing
+- Static routing
+- Standard and extended Access Control Lists (ACLs)
+- NAT/PAT overload
+- SSH remote management
+- Switch port security
+- Unused switch-port shutdown
+- Network troubleshooting and verification
 
 Security Policies
 
-- HR-to-Finance traffic is restricted by an extended ACL.
-- NAT/PAT translates selected internal network traffic.
-- SSH is configured for remote router management with access restrictions.
-- Switch port security limits connected device MAC addresses on access ports.
+- Restrict selected HR-to-Finance traffic using an extended ACL.
+- Translate selected internal network traffic using NAT/PAT.
+- Restrict SSH management access to the authorized IT PC.
+- Limit device access on configured switch ports using port security.
+- Administratively disable unused switch ports.
 
 Verification
 
-The lab was tested using connectivity checks and Cisco IOS show commands, including:
+The following Cisco IOS commands can be used to inspect the configuration and verify the lab:
 
-- "show ip interface brief"
-- "show ip route"
-- "show access-lists"
-- "show ip nat statistics"
-- "show port-security"
+show ip interface brief
+show ip route
+show access-lists
+show ip nat translations
+show ip nat statistics
+show ip ssh
+show port-security
 
 Project Files
 
-- "SEAC-Enterprise-Network.pkt" — Packet Tracer lab file
-- "seac-topology.png" — Network topology screenshot
-- "configs/" — Router and switch configuration files
-
-Learning Objectives
-
-To develop practical skills in Cisco networking, routing, VLANs, access control, NAT/PAT, SSH, and Layer 2 security.
-Project Documentation
-
-- "Security Architecture" (./documentation/security-architecture.md)
-- "Testing Results" (./documentation/testing-results.md)
-
-Project Highlights
-
-- Department-based VLAN segmentation
-- Extended ACL traffic restrictions
-- Static routing between enterprise and ISP routers
-- NAT/PAT overload
-- SSH management access restricted to the IT PC
-- Switch port security and unused-port shutdown
-- Connectivity and security verification in Cisco Packet Tracer
-
-Tools Used
-
-- Cisco Packet Tracer
-- Cisco IOS CLI
-- GitHub for project documentation and version control
+- ""SEAC-Enterprise-Network.pkt"" (./SEAC-Enterprise-Network.pkt) — Packet Tracer lab file, if this is the exact uploaded filename.
+- ""seac-topology.png"" (./seac-topology.png) — Network topology image.
+- ""configs/"" (./configs/) — Router and switch configuration files.
+- ""documentation/security-architecture.md"" (./documentation/security-architecture.md) — Security architecture.
+- ""documentation/testing-results.md"" (./documentation/testing-results.md) — Testing documentation.
 
 Verification Evidence
 
 Network Topology
 
-"SEAC Network Topology" (./seac-topology-evidence.png)
+"SEAC Network Topology Evidence" (./seac-topology-evidence.png)
 
 NAT/PAT Verification
 
@@ -89,6 +70,23 @@ NAT/PAT Verification
 ACL Security Verification
 
 "ACL Security Verification" (./acl-security-verification.png)
+
+Tools Used
+
+- Cisco Packet Tracer
+- Cisco IOS CLI
+- GitHub for project documentation and version control
+
+Learning Objectives
+
+- Practise enterprise routing and switching.
+- Understand VLAN-based network segmentation.
+- Apply ACLs to control network traffic.
+- Configure and verify NAT/PAT.
+- Secure remote management using SSH.
+- Implement switch port security.
+- Document and troubleshoot a multi-device network.
+
 Disclaimer
 
-This is an educational lab built for practice. It has not been presented as a production-ready enterprise security solution.
+This project is an educational simulation built for networking practice. It is not presented as a production-ready enterprise security solution.
