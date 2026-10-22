@@ -53,6 +53,26 @@ Project Files
 Learning Objectives
 
 To develop practical skills in Cisco networking, routing, VLANs, access control, NAT/PAT, SSH, and Layer 2 security.
+Project Documentation
+
+- "Security Architecture" (./documentation/security-architecture.md)
+- "Testing Results" (./documentation/testing-results.md)
+
+Project Highlights
+
+- Department-based VLAN segmentation
+- Extended ACL traffic restrictions
+- Static routing between enterprise and ISP routers
+- NAT/PAT overload
+- SSH management access restricted to the IT PC
+- Switch port security and unused-port shutdown
+- Connectivity and security verification in Cisco Packet Tracer
+
+Tools Used
+
+- Cisco Packet Tracer
+- Cisco IOS CLI
+- GitHub for project documentation and version control
 
 Disclaimer
 
