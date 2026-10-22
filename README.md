@@ -1,53 +1,68 @@
-Cisco CCNA Practical Labs
+CCNA Labs — Networking & Security Portfolio
 
-A collection of hands-on networking labs built with Cisco Packet Tracer to develop practical skills in network configuration, troubleshooting, routing, switching, and security.
+Practical Cisco Networking | CCNA Labs | Enterprise Network Security
 
-About This Repository
+Welcome to my Cisco Networking Lab Repository! This repository contains hands-on networking projects developed using Cisco Packet Tracer to practice routing, switching, network security, troubleshooting, and enterprise network design.
 
-This repository documents my networking practice and CCNA learning journey through practical lab scenarios. Each project focuses on applying networking concepts, configuring Cisco devices, and testing network connectivity.
+👨‍💻 About Me
 
-Lab Projects
+I am a Computer Science graduate building practical skills in networking and cybersecurity. My goal is to become a Network Engineer by developing real-world networking knowledge through hands-on labs and projects.
 
-Project| Description
-"SEAC Enterprise Network Security" (./SEAC-Enterprize-Network-Security/)| Enterprise network lab featuring VLANs, routing, ACLs, NAT/PAT, SSH, and switch port security
-"VLAN-Based Network" (./VLAN-Based%20Network%20with%20Inter-VLAN%20Routing/)| VLAN configuration and inter-VLAN routing practice
-"Network Security & Device Hardening" (./Network-Security-and-device-hardening/)| Network security configuration and device-hardening practice
-"Campus Area Network" (./Campus_Area_Network/)| Campus network design and connectivity practice
-"Accounts & Delivery Network" (./Accounts-Delivery-department-Network/)| Department-based network lab
-"Small Office Network" (./Small%20office%20Network/)| Small-office network design and configuration
+📁 Projects
 
-Skills Practiced
+🔐 SEAC Framework — Enterprise Network Security
 
-- Routing: Static routing and inter-network connectivity
-- Switching: VLANs, trunking, and inter-VLAN routing
-- Network Security: Standard and extended ACLs
-- NAT/PAT: Address translation and overload
-- Remote Management: SSH configuration and access restrictions
-- Layer 2 Security: Switch port security
-- Troubleshooting: Ping tests and Cisco IOS verification commands
+SEAC stands for Secure Enterprise Access Control.
 
-Tools & Technologies
+An enterprise network security project designed to demonstrate network segmentation, access control, routing, and NAT/PAT using Cisco networking technologies.
+
+Key Features
+
+- VLAN-based network segmentation
+- Inter-VLAN and static routing
+- Standard and Extended Access Control Lists (ACLs)
+- NAT/PAT configuration and verification
+- SSH management access restrictions
+- Switch port security
+- Network connectivity and security testing
+
+Project Resources
+
+- "SEAC Project Folder" (https://github.com/jamalhaidery2099-debug/CCNA-Labs/tree/main/SEAC-Enterprise-Network-Security)
+- "SEAC Topology Image" (https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/seac-topology.png)
+- "Security Architecture" (https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/documentation/security-architecture.md)
+- "Testing Results" (https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/SEAC-Enterprise-Network-Security/documentation/testing-results.md)
+
+🛠️ Technologies & Tools
 
 - Cisco Packet Tracer
-- Cisco IOS command-line interface (CLI)
-- IPv4 addressing and subnetting
-- Routing and switching fundamentals
+- Cisco IOS CLI
+- IPv4 Addressing and Subnetting
+- VLANs and Routing
+- ACLs and Network Security
+- NAT and PAT
+- SSH and Switch Port Security
 
-Project Documentation
+🎯 Learning Objectives
 
-Individual project folders may contain Packet Tracer files, topology diagrams, device configurations, and testing notes, depending on the lab.
+- Develop practical CCNA networking skills
+- Understand enterprise network architecture
+- Configure and troubleshoot routers and switches
+- Apply access control and network security policies
+- Document networking projects professionally
 
-Learning Goals
+📌 Project Status
 
-- Strengthen practical CCNA networking knowledge
-- Improve Cisco CLI configuration and troubleshooting skills
-- Build and document realistic network scenarios
-- Develop a portfolio for entry-level networking and IT opportunities
+SEAC Framework: Core configuration and verification completed in Cisco Packet Tracer.
 
-Disclaimer
+This repository is a learning and portfolio project. Network behavior and security features are demonstrated in a simulated environment.
 
-These projects are for educational and lab practice purposes. Configurations should be reviewed and tested before being considered for use in a production environment.
+🤝 Connect & Feedback
+
+I welcome suggestions, feedback, and ideas that can help improve these networking projects.
+
+Goal: Learn by building, testing, documenting, and improving.
 
 ---
 
-Maintained as part of my ongoing Cisco networking learning journey.
+⭐ If you find these labs useful, consider starring this repository!
