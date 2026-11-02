@@ -1,6 +1,6 @@
 # ARCOR Framework
 ## Advanced Routing & Convergence Optimization Framework
-![ARCOR Network Topology](ARCOR-Topology.png)]
+![ARCOR Network Topology](ARCOR-Topology.png)
 
 ### Overview
 
