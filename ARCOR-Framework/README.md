@@ -24,6 +24,8 @@ The network includes six routers, two switches, two PCs, and one ISP server.
 | PC-BRANCH | Branch Client |
 | SRV-ISP | ISP Server |
 
+📄 ![View Complete Network Addressing Table](NETWORK-ADDRESSING-TABLE.md)
+
 ### Routing Technologies
 
 *OSPF Multi-Area*
