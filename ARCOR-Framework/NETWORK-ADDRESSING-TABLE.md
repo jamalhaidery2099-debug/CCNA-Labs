@@ -1,1 +1,47 @@
+ARCOR Framework — Network Addressing Table
 
+1. LAN Addressing
+
+Device| Interface| IP Address| Subnet Mask
+R1-HQ| G0/0| 192.168.10.1| 255.255.255.0
+PC-HQ| NIC| 192.168.10.10| 255.255.255.0
+R3-BRANCH| G0/2| 192.168.30.1| 255.255.255.0
+PC-BRANCH| NIC| 192.168.30.10| 255.255.255.0
+R6-ISP| G0/1| 203.0.113.1| 255.255.255.0
+SRV-ISP| NIC| 203.0.113.10| 255.255.255.0
+
+2. Point-to-Point WAN Addressing
+
+Connection| Device| Interface| IP Address
+HQ–CORE| R1-HQ| G0/1| 10.0.12.2/30
+HQ–CORE| R2-CORE| G0/0| 10.0.12.1/30
+CORE–BRANCH| R2-CORE| G0/1| 10.0.23.1/30
+CORE–BRANCH| R3-BRANCH| G0/1| 10.0.23.2/30
+BRANCH–HQ| R3-BRANCH| G0/0| 10.0.31.1/30
+BRANCH–HQ| R1-HQ| G0/2| 10.0.31.2/30
+CORE–REDIST| R2-CORE| G0/2| 10.0.24.1/30
+CORE–REDIST| R4-REDIST| G0/0| 10.0.24.2/30
+REDIST–EDGE| R4-REDIST| G0/1| 10.0.45.1/30
+REDIST–EDGE| R5-EDGE| G0/0| 10.0.45.2/30
+EDGE–ISP| R5-EDGE| G0/1| 10.0.56.1/30
+EDGE–ISP| R6-ISP| G0/0| 10.0.56.2/30
+
+3. Routing Protocols
+
+- OSPF Process ID: 1
+- OSPF Area 0: Backbone
+- OSPF Area 1: Branch LAN
+- EIGRP Autonomous System: 100
+- R5 BGP AS: 65001
+- R6 BGP AS: 65002
+
+4. Default Gateways
+
+Device| Default Gateway
+PC-HQ| 192.168.10.1
+PC-BRANCH| 192.168.30.1
+SRV-ISP| 203.0.113.1
+
+---
+
+ARCOR Framework — Advanced Routing & Convergence Optimization Framework
