@@ -80,7 +80,22 @@ During testing:
 - Dynamic Routing
 - Route Redistribution
 - Network Redundancy
+## Practical Lab Screenshots
 
+### 1. OSPF Neighbor Verification
+![OSPF Neighbors](screenshots/OSPF-Neighbors.png)
+
+### 2. EIGRP Neighbor Verification
+![EIGRP Neighbors](screenshots/EIGRP-Neighbors.png)
+
+### 3. BGP Peering Verification
+![BGP Peering](screenshots/BGP-Peering.png)
+
+### 4. Route Redistribution
+![Route Redistribution](screenshots/Route-Redistribution.png)
+
+### 5. OSPF Failover & Recovery
+![OSPF Failover](screenshots/OSPF-Failover-Recovery.png)
 ### Conclusion
 
 ARCOR demonstrates the integration of multiple dynamic routing protocols to build a resilient enterprise network with automatic recovery from link failures.
