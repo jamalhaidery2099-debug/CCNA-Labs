@@ -1,5 +1,5 @@
 # Campus Area Network (CAN) – University Network
-![Network_Topology]("https://github.com/jamalhaidery2099-debug/CCNA-Labs/blob/main/Campus_Area_Network/Network_Topology.png")
+![Network_Topology]("Network-Topology.png")
 
 ## Project Overview
 
