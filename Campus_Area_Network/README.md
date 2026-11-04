@@ -1,5 +1,5 @@
 # Campus Area Network (CAN) – University Network
-![Network_Topology]("Network-Topology.png")
+![Network_Topology]("Network_Topology.png")
 
 ## Project Overview
 
